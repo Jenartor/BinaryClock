@@ -31,6 +31,7 @@ namespace BinaryClock {
             DispatcherTimer timer = new DispatcherTimer();
             timer.Tick += (TimerTick);
             timer.Start();
+            int test = 5;
         }
 
         private void TimerTick(object sender, EventArgs e) {
